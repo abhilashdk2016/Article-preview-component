@@ -6,9 +6,9 @@ export default function Home() {
       <Head>
         <title>Article Preview Component</title>
       </Head>
-      <div className="mx-auto">
-        <img src="/images/drawers.jpg" alt="drawers" className="rounded-tr-md rounded-tol-md h-48 w-full" />
-        <div className="bg-white p-8 rounded-bl-md rounded-br-md">
+      <div className="mx-auto lg:w-3/5 lg:flex lg:h-screen lg:justify-center lg:items-center">
+        <img src="/images/drawers.jpg" alt="drawers" className="rounded-tr-md rounded-tl-md h-48 w-full lg:w-2/5 lg:rounded-bl-md lg:rounded-tl-md lg:rounded-tr-none lg:h-auto" />
+        <div className="bg-white p-8 rounded-bl-md rounded-br-md lg:rounded-bl-none lg:rounded-tr-md lg:rounded-bt-md">
           <h2 className="text-gray-700 font-semibold">
             Shift overall look and feel by adding these wonderful touches to furniture in your home
           </h2>
